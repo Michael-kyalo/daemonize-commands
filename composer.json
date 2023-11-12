@@ -13,7 +13,7 @@
             "email": "kyalomike8@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "php": "^8.1",
         "illuminate/console": "^5.0|^6.0|^7.0",
