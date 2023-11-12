@@ -1,26 +1,18 @@
 <?php
 
-declare(strict_types=1);
-
+/**
+ * Thanks to https://github.com/flaushi for his suggestion:
+ * https://github.com/doctrine/dbal/issues/2873#issuecomment-534956358
+ */
 namespace Carbon\Doctrine;
 
 use Carbon\CarbonImmutable;
-use DateTimeImmutable;
-use Doctrine\DBAL\Platforms\AbstractPlatform;
 use Doctrine\DBAL\Types\VarDateTimeImmutableType;
 
 class DateTimeImmutableType extends VarDateTimeImmutableType implements CarbonDoctrineType
 {
     /** @use CarbonTypeConverter<CarbonImmutable> */
     use CarbonTypeConverter;
-
-    /**
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
-     */
-    public function convertToPHPValue(mixed $value, AbstractPlatform $platform): ?DateTimeImmutable
-    {
-        return $this->doConvertToPHPValue($value);
-    }
 
     /**
      * @return class-string<CarbonImmutable>
