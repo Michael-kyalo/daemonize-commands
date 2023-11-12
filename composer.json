@@ -22,8 +22,8 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/Michael-kyalo/daemonize-commands"
+            "url": "https://github.com/michael-kyalo/daemonize-commands"
         }
     ],
-    "homepage": "https://github.com/Michael-kyalo/daemonize-commands"
+    "homepage": "https://github.com/michael-kyalo/daemonize-commands"
 }
