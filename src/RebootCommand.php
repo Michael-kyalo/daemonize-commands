@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelAddons\CommandDaemonizer;
+namespace LaravelLib\DaemonizeCommands;
 
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Cache\Repository as CacheContract;

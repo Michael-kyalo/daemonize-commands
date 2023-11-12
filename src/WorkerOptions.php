@@ -1,7 +1,7 @@
 <?php
 
 
-namespace LaravelLib\DeamonizeCommands;
+namespace LaravelLib\DaemonizeCommands;
 class WorkerOptions
 {
     /**

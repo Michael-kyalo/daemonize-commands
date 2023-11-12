@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelLib\DeamonizeCommands;
+namespace LaravelLib\DaemonizeCommands;
 
 use Illuminate\Support\ServiceProvider;
 use LaravelAddons\CommandDaemonizer\RebootCommand;

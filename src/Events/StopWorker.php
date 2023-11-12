@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelLib\DeamonizeCommands\Events;
+namespace LaravelLib\DaemonizeCommands\Events;
 
 class WorkerStopping
 {
